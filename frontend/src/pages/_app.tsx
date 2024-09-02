@@ -45,7 +45,7 @@ function AnalyticsScript() {
 const App = ({ Component, pageProps }: any) => (
   <>
     <Head>
-      <title>Bracket</title>
+      <title>CompTree</title>
       <meta charSet="UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

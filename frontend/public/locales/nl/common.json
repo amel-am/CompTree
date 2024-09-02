@@ -232,5 +232,9 @@
     "welcome_title": "Welkom bij",
     "win_distribution_text_draws": "gelijkspellen",
     "win_distribution_text_losses": "verliezen",
-    "win_distribution_text_win": "zeges"
+    "win_distribution_text_win": "zeges",
+    "weight_input_label": "Gewicht",
+    "weight_input_placeholder": "Uw gewicht bijv. 80 kg",
+    "age_input_label": "Leeftijd",
+    "age_input_placeholder": "Uw leeftijd, bijv. 35"
 }

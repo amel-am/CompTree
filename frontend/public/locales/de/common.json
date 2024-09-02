@@ -43,7 +43,7 @@
     "court_name_input_placeholder": "Bestes Spielfeld aller Zeiten",
     "court_spotlight_description": "Spielfelder ansehen, hinzufügen oder löschen",
     "courts_title": "Spielfeld",
-    "create_account_alert_description": "Kontoerstellung ist auf dieser Domain momentan deaktiviert, da sich bracket noch in der Beta-Phase befindet.",
+    "create_account_alert_description": "Kontoerstellung ist auf dieser Domain momentan deaktiviert, da sich CompTree noch in der Beta-Phase befindet.",
     "create_account_alert_title": "Nicht verfügbar",
     "create_account_button": "Konto erstellen",
     "create_account_title": "Neues Konto erstellen",
@@ -69,7 +69,7 @@
     "delete_round_button": "Runde löschen",
     "delete_team_button": "Team löschen",
     "delete_tournament_button": "Turnier löschen",
-    "demo_description": "Um Bracket zu testen, können Sie eine Demo starten. Eine Demo dauert 30 Minuten, danach wird Ihr Demo-Konto gelöscht. Bitte, mache das Beste daraus.",
+    "demo_description": "Um CompTree zu testen, können Sie eine Demo starten. Eine Demo dauert 30 Minuten, danach wird Ihr Demo-Konto gelöscht. Bitte, mache das Beste daraus.",
     "demo_policy_title": "Demo-Richtlinie",
     "draft_round_checkbox_label": "Diese Runde ist eine Entwurfsrunde",
     "drop_match_alert_title": "Spiel hier ablegen",
@@ -232,5 +232,9 @@
     "welcome_title": "Willkommen bei",
     "win_distribution_text_draws": "zeichnet",
     "win_distribution_text_losses": "Niederlagen",
-    "win_distribution_text_win": "Siege"
+    "win_distribution_text_win": "Siege",
+    "weight_input_label": "Gewicht",
+    "weight_input_placeholder": "Dein Gewicht z.B 80 kg",
+    "age_input_label": "Alter",
+    "age_input_placeholder": "Dein Alter zB 35"
 }

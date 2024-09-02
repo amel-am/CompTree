@@ -10,16 +10,15 @@ import {
 } from '@mantine/core';
 import { useForm } from '@mantine/form';
 import { showNotification } from '@mantine/notifications';
-import { IconCheck } from '@tabler/icons-react';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
-
 // import useStyles from '../components/login/login.styles';
 import { tokenPresent } from '../services/local_storage';
 import { performLogin } from '../services/user';
 import Layout from './_layout';
+
 
 export default function Login() {
   // const { classes } = useStyles();
@@ -37,8 +36,7 @@ export default function Login() {
       showNotification({
         color: 'green',
         title: t('login_success_title'),
-        icon: <IconCheck />,
-        message: '',
+        message: ''
       });
 
       await router.push('/');
@@ -62,7 +60,7 @@ export default function Login() {
       <Title ta="center" mt={100}>
         {t('welcome_title')}{' '}
         <Text inherit variant="gradient" component="span">
-          Bracket
+          CompTree
         </Text>
       </Title>
       <Container size={480} my={40}>
@@ -106,6 +104,18 @@ export default function Login() {
               mt="md"
               {...form.getInputProps('password')}
             />
+            <TextInput
+            label={t('weight_input_label')}
+            placeholder= {t('weight_input_placeholder')}
+            my="lg"
+            {...form.getInputProps('weight')}
+            />
+            <TextInput
+            label={t('age_input_label')}
+            placeholder= {t('age_input_placeholder')}
+            my="lg"
+            {...form.getInputProps('age')}
+            />
             <Button fullWidth mt="xl" type="submit">
               {t('sign_in_title')}
             </Button>
@@ -122,6 +132,7 @@ export default function Login() {
         </Paper>
       </Container>
     </Layout>
+
   );
 }
 

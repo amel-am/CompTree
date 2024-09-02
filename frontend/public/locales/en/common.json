@@ -229,8 +229,13 @@
     "user_title": "User",
     "view_dashboard_button": "View Dashboard",
     "website_title": "Website",
-    "welcome_title": "Welcome to",
+    "welcome_title": "Welcome to CompTree",
     "win_distribution_text_draws": "draws",
     "win_distribution_text_losses": "losses",
-    "win_distribution_text_win": "wins"
+    "win_distribution_text_win": "wins",
+    "weight_input_label": "Weight",
+    "weight_input_placeholder": "Your weight e.g 80 kg",
+    "age_input_label": "Age",
+    "age_input_placeholder": "Your age e.g 35"
+    
 }

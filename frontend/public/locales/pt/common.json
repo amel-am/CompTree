@@ -232,5 +232,9 @@
     "welcome_title": "Bem-vindo a",
     "win_distribution_text_draws": "desenhar",
     "win_distribution_text_losses": "derrotas",
-    "win_distribution_text_win": "vitórias"
+    "win_distribution_text_win": "vitórias",
+    "weight_input_label": "Peso",
+    "weight_input_placeholder": "O seu peso, por exemplo, 80 kg",
+    "age_input_label": "Idade",
+    "age_input_placeholder": "A sua idade, por exemplo, 35 anos"
 }

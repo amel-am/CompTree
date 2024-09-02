@@ -15,14 +15,14 @@ WORKDIR /app
 COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 
-RUN NEXT_PUBLIC_API_BASE_URL="APP_PLACEHOLDER_NEXT_PUBLIC_API_BASE_URL" NEXT_PUBLIC_HCAPTCHA_SITE_KEY="APP_PLACEHOLDER_NEXT_PUBLIC_HCAPTCHA_SITE_KEY" yarn build
+RUN yarn build
 
 # Production image, copy all the files and run next
 FROM node:18-alpine AS runner
 
 WORKDIR /app
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
@@ -47,4 +47,4 @@ EXPOSE 3000
 
 ENTRYPOINT ["/app/entrypoint.sh"]
 
-CMD yarn start
+CMD ["yarn", "start"]

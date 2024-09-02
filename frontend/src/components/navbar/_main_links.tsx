@@ -87,15 +87,9 @@ export function getBaseLinksDict() {
       link: '',
       label: t('more_title'),
       links: [
-        { link: 'https://docs.bracketapp.nl/', label: t('website_title'), icon: IconBrowser },
-        {
-          link: 'https://github.com/evroon/bracket',
-          label: t('github_title'),
-          icon: IconBrandGithub,
-        },
-        { link: `${getBaseApiUrl()}/docs`, label: t('api_docs_title'), icon: IconBook },
+        { link: 'https://www.orior.at/', label: t('website_title'), icon: IconBrowser },
       ],
-    },
+    }
   ];
 }
 
